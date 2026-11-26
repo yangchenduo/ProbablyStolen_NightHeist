@@ -1,0 +1,54 @@
+# 深夜当铺:我亲自偷的 - Traditional Chinese Localization
+location_title,尋找機會
+panel_title,尋找機會
+action_scout,尋找機會
+action_abandon,放棄行動（安全撤離）
+action_done,今晚已行動
+action_abandoned,今晚已放棄
+status_ready,今晚剩餘踩點次數：1
+status_choose_target,發現了 2 個下手目標，請選擇目標或直接放棄：
+status_patrol_blocked,悻悻而歸，今天治安部加強了巡邏。
+status_patrol_caught,悻悻而歸，今天治安部加強了巡邏（被巡邏發現，治安官聲望 -{0}）
+status_abandoned,今晚已放棄行動，安全撤離（無懲罰）。
+status_result_loot,本次下手：{0}（共 {1} 件贓物）
+status_result_loot_crime,本次下手：{0}（共 {1} 件贓物，盜竊案值 +{2}）
+status_result_loot_partial,本次下手：{0}（已放入地面 {1} 件，地面已滿丟棄 {2} 件）
+status_result_loot_partial_crime,本次下手：{0}（已放入地面 {1} 件，地面已滿丟棄 {2} 件，盜竊案值 +{3}）
+odds_line,踩點成功率：{0}%（巡邏封鎖 {1}%）
+risk_line,巡邏封鎖被發現：{0}%（治安官聲望 -{1}）
+risk_line_crime,巡邏被發現：{0}%（聲望 -{1}）｜得手犯罪記錄：貨值×{2}
+target_food_supplier,食品供貨商
+target_petty,小偷小摸
+dept_security,治安部
+dept_engineering,建築部
+dept_service,服務部
+dept_medical,醫療部
+dept_command,指揮部
+choice_food_supplier,下手：食品供貨商（配給食品）
+choice_petty,下手：小偷小摸（食品/日用/醫療）
+choice_dept,下手：{0}（模組/鑰匙卡/補給箱）
+role_empty,空手而歸
+crime_theft,盜竊
+notify_loot,得手！（{0}）：摸到了 {1} 件贓物！
+notify_loot_crime,得手！（{0}）：摸到了 {1} 件贓物！（犯罪記錄「盜竊」+{2}）
+notify_patrol_blocked,悻悻而歸，今天治安部加強了巡邏。
+notify_patrol_caught,悻悻而歸，今天治安部加強了巡邏——還被巡邏盯上了！（治安官聲望 -{0}）
+notify_abandoned,見勢不妙，放棄了今晚的盜竊計畫並安全脫身。
+cfg_patrol_block,巡邏封鎖機率 (%)
+cfg_patrol_block_tip,點擊「尋找機會」時因治安部加強巡邏而直接悻悻而歸的機率（預設 10%，其餘 90% 抽取 2 個目標）。
+cfg_weight_food,食品供貨商權重
+cfg_weight_food_tip,抽中「食品供貨商」（對應食物竊賊配給站食品表）的相對權重（預設 4）。
+cfg_weight_petty,小偷小摸權重
+cfg_weight_petty_tip,抽中「小偷小摸」（對應扒手包裝食品/日用品/醫療用品表）的相對權重（預設 3）。
+cfg_weight_thief,部門目標權重
+cfg_weight_thief_tip,抽中「治安部/建築部/服務部等」（對應竊賊模組/鑰匙卡/雜貨/補給箱表）的相對權重（預設 2）。
+cfg_caught_chance,巡邏封鎖時被發現機率 (%)
+cfg_caught_chance_tip,僅在觸發「治安部加強巡邏」時檢定，觸發後扣除治安官聲望（預設 35%）。
+cfg_sec_penalty,被發現時扣除治安官聲望
+cfg_sec_penalty_tip,被治安官巡邏發現時扣除的聲望點數（預設 3）。
+cfg_crime_mult,得手犯罪記錄倍率
+cfg_crime_mult_tip,解鎖治安檔案機制後，盜竊得手將按「贓物基礎價值 × 倍率」記入「盜竊」犯罪記錄（預設 1.5，設為 0 關閉）。
+cfg_use_bm_mult,沿用黑市聲望出貨倍率
+cfg_use_bm_mult_tip,開啟後與原版三位 NPC 一致，出貨檢定機率受黑市聲望倍率（1.0x~2.5x）加成。
+cfg_apply_stolen_heat,附加原版贓物熱度
+cfg_apply_stolen_heat_tip,開啟後按原版規則在解鎖贓物機制後為偷來的物品附加贓物熱度（食物竊賊固定 25，其餘按價值計算）。

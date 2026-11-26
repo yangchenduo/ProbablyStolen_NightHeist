@@ -1,0 +1,14 @@
+# Build artifacts
+build/
+*.dll
+*.pdb
+
+# Steam Workshop local config (contains local paths & workshop ID)
+workshop_upload.vdf
+
+# OS / Editor temp files
+.DS_Store
+Thumbs.db
+*.user
+*.suo
+.vs/

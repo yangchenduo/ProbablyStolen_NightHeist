@@ -1,0 +1,54 @@
+# 深夜当铺:我亲自偷的 - Simplified Chinese Localization (game locale code: zh)
+location_title,寻找机会
+panel_title,寻找机会
+action_scout,寻找机会
+action_abandon,放弃行动（安全撤离）
+action_done,今晚已行动
+action_abandoned,今晚已放弃
+status_ready,今晚剩余踩点次数：1
+status_choose_target,发现了 2 个下手目标，请选择目标或直接放弃：
+status_patrol_blocked,悻悻而归，今天治安部加强了巡逻。
+status_patrol_caught,悻悻而归，今天治安部加强了巡逻（被巡逻发现，治安官声望 -{0}）
+status_abandoned,今晚已放弃行动，安全撤离（无惩罚）。
+status_result_loot,本次下手：{0}（共 {1} 件赃物）
+status_result_loot_crime,本次下手：{0}（共 {1} 件赃物，盗窃案值 +{2}）
+status_result_loot_partial,本次下手：{0}（已放入地面 {1} 件，地面已满丢弃 {2} 件）
+status_result_loot_partial_crime,本次下手：{0}（已放入地面 {1} 件，地面已满丢弃 {2} 件，盗窃案值 +{3}）
+odds_line,踩点成功率：{0}%（巡逻封锁 {1}%）
+risk_line,巡逻封锁被发现：{0}%（治安官声望 -{1}）
+risk_line_crime,巡逻被发现：{0}%（声望 -{1}）｜得手犯罪记录：货值×{2}
+target_food_supplier,食品供货商
+target_petty,小偷小摸
+dept_security,治安部
+dept_engineering,建筑部
+dept_service,服务部
+dept_medical,医疗部
+dept_command,指挥部
+choice_food_supplier,下手：食品供货商（配给食品）
+choice_petty,下手：小偷小摸（食品/日用/医疗）
+choice_dept,下手：{0}（模组/钥匙卡/补给箱）
+role_empty,空手而归
+crime_theft,盗窃
+notify_loot,得手！（{0}）：摸到了 {1} 件赃物！
+notify_loot_crime,得手！（{0}）：摸到了 {1} 件赃物！（犯罪记录「盗窃」+{2}）
+notify_patrol_blocked,悻悻而归，今天治安部加强了巡逻。
+notify_patrol_caught,悻悻而归，今天治安部加强了巡逻——还被巡逻盯上了！（治安官声望 -{0}）
+notify_abandoned,见势不妙，放弃了今晚的盗窃计划并安全脱身。
+cfg_patrol_block,巡逻封锁概率 (%)
+cfg_patrol_block_tip,点击「寻找机会」时因治安部加强巡逻而直接悻悻而归的概率（默认 10%，其余 90% 抽取 2 个目标）。
+cfg_weight_food,食品供货商权重
+cfg_weight_food_tip,抽中「食品供货商」（对应食物窃贼配给站食品表）的相对权重（默认 4）。
+cfg_weight_petty,小偷小摸权重
+cfg_weight_petty_tip,抽中「小偷小摸」（对应扒手包装食品/日用品/医疗用品表）的相对权重（默认 3）。
+cfg_weight_thief,部门目标权重
+cfg_weight_thief_tip,抽中「治安部/建筑部/服务部等」（对应窃贼模组/钥匙卡/杂货/补给箱表）的相对权重（默认 2）。
+cfg_caught_chance,巡逻封锁时被发现概率 (%)
+cfg_caught_chance_tip,仅在触发「治安部加强巡逻」时检定，触发后扣除治安官声望（默认 35%）。
+cfg_sec_penalty,被发现时扣除治安官声望
+cfg_sec_penalty_tip,被治安官巡逻发现时扣除的声望点数（默认 3）。
+cfg_crime_mult,得手犯罪记录倍率
+cfg_crime_mult_tip,解锁治安档案机制后，盗窃得手将按「赃物基础价值 × 倍率」记入「盗窃」犯罪记录（默认 1.5，设为 0 关闭）。
+cfg_use_bm_mult,沿用黑市声望出货倍率
+cfg_use_bm_mult_tip,开启后与原版三位 NPC 一致，出货检定概率受黑市声望倍率（1.0x~2.5x）加成。
+cfg_apply_stolen_heat,附加原版赃物热度
+cfg_apply_stolen_heat_tip,开启后按原版规则在解锁赃物机制后为偷来的物品附加赃物热度（食物窃贼固定 25，其余按价值计算）。

@@ -1,0 +1,54 @@
+# Probably Stolen: Stole It Myself - English Localization
+location_title,Scout Opportunities
+panel_title,Scout Opportunities
+action_scout,Scout Opportunities
+action_abandon,Walk Away (Safe)
+action_done,Done Tonight
+action_abandoned,Walked Away
+status_ready,Scouting attempts remaining tonight: 1
+status_choose_target,Spotted 2 targets. Pick one or walk away safely:
+status_patrol_blocked,Left empty-handed — Security stepped up patrols tonight.
+status_patrol_caught,Left empty-handed — Security stepped up patrols (spotted, Security Rep -{0})
+status_abandoned,Walked away safely tonight (no penalty).
+status_result_loot,Hit: {0} ({1} stolen items)
+status_result_loot_crime,Hit: {0} ({1} stolen items, Theft record +{2})
+status_result_loot_partial,Hit: {0} ({1} placed on ground, {2} lost - ground full)
+status_result_loot_partial_crime,Hit: {0} ({1} placed on ground, {2} lost - ground full, Theft record +{3})
+odds_line,Scout success: {0}% (Patrol lockdown: {1}%)
+risk_line,Spotted during lockdown: {0}% (Security Rep -{1})
+risk_line_crime,Lockdown spotted: {0}% (Rep -{1}) | Theft crime: value x{2}
+target_food_supplier,Food Supplier
+target_petty,Petty Pilfering
+dept_security,Security Dept
+dept_engineering,Engineering Dept
+dept_service,Service Dept
+dept_medical,Medical Dept
+dept_command,Command Dept
+choice_food_supplier,Hit: Food Supplier (Rations)
+choice_petty,Hit: Petty Pilfering (Goods & Meds)
+choice_dept,Hit: {0} (Modules/Cards/Crates)
+role_empty,Empty-handed
+crime_theft,Theft
+notify_loot,Heist succeeded ({0}): grabbed {1} stolen item(s)!
+notify_loot_crime,Heist succeeded ({0}): grabbed {1} stolen item(s)! (Theft record +{2})
+notify_patrol_blocked,Left empty-handed — Security stepped up patrols tonight.
+notify_patrol_caught,Security stepped up patrols and spotted you snooping! (Security Rep -{0})
+notify_abandoned,Called off tonight's heist and slipped away safely.
+cfg_patrol_block,Patrol Lockdown Chance (%)
+cfg_patrol_block_tip,Chance that Security stepped up patrols tonight, blocking all targets (default 10%; remaining 90% draws 2 targets).
+cfg_weight_food,Food Supplier Weight
+cfg_weight_food_tip,Relative weight for drawing Food Supplier (Food Thief loot table, default 4).
+cfg_weight_petty,Petty Pilfering Weight
+cfg_weight_petty_tip,Relative weight for drawing Petty Pilfering (Pickpocket loot table, default 3).
+cfg_weight_thief,Department Target Weight
+cfg_weight_thief_tip,Relative weight for drawing a Department target (Thief loot table, default 2).
+cfg_caught_chance,Spotted Chance on Lockdown (%)
+cfg_caught_chance_tip,Chance to be spotted by Security when patrols block the heist (default 35%).
+cfg_sec_penalty,Security Rep Penalty
+cfg_sec_penalty_tip,Security reputation deducted when spotted (default 3).
+cfg_crime_mult,Heist Crime Value Multiplier
+cfg_crime_mult_tip,Once Security Records are unlocked, successful heists add (loot base value x multiplier) to your Theft crime record (default 1.5; 0 disables).
+cfg_use_bm_mult,Use Black Market Rep Stock Multiplier
+cfg_use_bm_mult_tip,Apply vanilla Black Market reputation multiplier (1.0x-2.5x) to loot rolls.
+cfg_apply_stolen_heat,Apply Vanilla Stolen Heat
+cfg_apply_stolen_heat_tip,Apply vanilla stolen heat tags once stolen items are introduced (Food Thief fixed 25; others by value).

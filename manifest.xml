@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod>
+  <ID>NightHeist</ID>
+  <Name>深夜当铺:我亲自偷的</Name>
+  <Author>ycd_monty</Author>
+  <ModVersion>1.1.1</ModVersion>
+  <Description>在夜间外出地图新增「寻找机会」活动（复用拾荒场景与专属像素卡片）：90% 概率从食品供货商（食物窃贼）/ 小偷小摸（扒手）/ 各部门目标（窃贼）中按权重抽取 2 个目标供玩家选择下手或安全放弃；10% 概率因治安部加强巡逻而悻悻而归（有概率被巡逻发现扣治安官声望）。得手后按原版对应角色完整掉落表刷出赃物，并在解锁治安档案后记入 1.5 倍货值的「盗窃」犯罪记录。</Description>
+  <Assemblies>
+    <Assembly>NightHeist.dll</Assembly>
+  </Assemblies>
+  <Capabilities/>
+</Mod>
